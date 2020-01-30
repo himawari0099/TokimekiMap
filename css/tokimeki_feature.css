@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size:62.5%;
+}
+
+body p{
+	  font-family: Shuei MaruGo L sans-serif;
+	width: 100%;
+}
+/* header全体の指定 */
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: solid 1px #cecccc;
+    z-index: 300;
+}
+.main_v{
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+
+}
+.text01 {
+	width: 300px;
+	height:200px;
+	/* border: solid 1px red; */
+	color:#000;
+	transform: translate(-11px, 50px);
+	letter-spacing: 1px;
+
+
+}
+.text01 p{
+	display: block;
+	font-size:1rem;
+	line-height: 2.3;
+	width:100%;
+	height:100%;
+}
+/* 女の人二人の画像 */
+.configuration_pic{
+	margin:0 auto;
+}
+.configuration_pic img{
+    margin: auto;
+    display: block;
+	width: 100%;
+
+}
+.feature{
+	width: 1000px;
+	height:600px;
+	border:solid 1px red;
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	padding-top:500px;
+}
+.Configuration_abut{
+	width:100%;	
+	transform: translate(-30px, -20px);
+}
+.root_abut{
+	width:100%;	
+	transform: translate(-15px, -20px);
+
+}
+.record_abut{
+	width:100%;	
+	transform: translate(-5px, -20px);
+
+}
+.three{
+	transform: translate(500px, -350px);
+}
+h3{
+	font-size: 23px;
+}
+.about_content02{
+	display:flex;
+}
+
+.text01{
+	font-size:15px;
+	line-height: 2.3;
+	/* border:solid 1px red; */
+
+}
+footer{
+	padding-top:90px;
+}
+footer ul li{
+	display:inline;
+	font-size:1.4rem;
+	padding:15px;
+}
+footer ul li a{
+	text-decoration:none;
+	color:#000;
+}
+.float_copyright{
+	float: right;
+}
+
+
+

@@ -1,0 +1,14 @@
+.ls-popUp{
+    animation: popUp 1.2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes popUp{
+    from{
+        opacity: 0;
+        bottom: '-50px';
+    }
+    to{
+        opacity: 1;
+        bottom: 0;
+    }
+}
